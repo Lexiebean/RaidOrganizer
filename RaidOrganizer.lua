@@ -26,9 +26,9 @@ local groupclasses = { {}, {}, {}, {}, {}, {}, {}, {}, {} }
 local newAttrib = {true, true, true, true, true, true,true, true, true}
 local classTab = {}
 
-local faction = UnitFactionGroup("player")
-if faction == "Alliance" then
-	classTab = {{"PRIEST","DRUID","PALADIN"},
+local faction = "Turtle"
+if faction == "Turtle" then
+	classTab = {{"PRIEST","DRUID","PALADIN","SHAMAN"},
 	{"WARRIOR","DRUID"},
 	{"WARRIOR","ROGUE","MAGE"},
 	{"MAGE","PRIEST","WARLOCK","ROGUE","HUNTER", "DRUID"},
@@ -36,9 +36,9 @@ if faction == "Alliance" then
 	{"MAGE"},
 	{"PRIEST"},
 	{"DRUID"},
-	{"MAGE","PRIEST","WARLOCK","ROGUE","HUNTER", "DRUID", "PALADIN", "WARRIOR"},
-	{"MAGE","PRIEST","WARLOCK","ROGUE","HUNTER", "DRUID", "PALADIN", "WARRIOR"},
-	{"MAGE","PRIEST","WARLOCK","ROGUE","HUNTER", "DRUID", "PALADIN", "WARRIOR"}}
+	{"MAGE","PRIEST","WARLOCK","ROGUE","HUNTER", "DRUID", "PALADIN", "SHAMAN", "WARRIOR"},
+	{"MAGE","PRIEST","WARLOCK","ROGUE","HUNTER", "DRUID", "PALADIN", "SHAMAN", "WARRIOR"},
+	{"MAGE","PRIEST","WARLOCK","ROGUE","HUNTER", "DRUID", "PALADIN", "SHAMAN", "WARRIOR"}}
 else
 	classTab = {{"PRIEST","DRUID","SHAMAN"},
 	{"WARRIOR","DRUID"},
